@@ -6,6 +6,7 @@ import { StatsPage } from "sections/stats/StatsPage"
 import { StakingPage } from "./sections/staking/StakingPage"
 import { TradePage } from "sections/trade/TradePage"
 import { SwapPage } from "sections/trade/sections/swap/SwapPage"
+import MintNFTPage from "sections/mintNFT/MintNFTPage"
 import { OtcPageWrapper } from "sections/trade/sections/otc/OtcPageWrappet"
 import { DcaPage } from "sections/trade/sections/dca/DcaPage"
 import { BondsPageWrapper } from "sections/trade/sections/bonds/BondsPageWrapper"
@@ -112,6 +113,10 @@ export const routes = [
   {
     path: "staking",
     element: <StakingPage />,
+  },
+  {
+    path: "mintNFT",
+    element: <MintNFTPage />,
   },
   {
     path: "*",
